@@ -3,150 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>The Lone Warrior</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <style>
-        .image-column {
-            padding: 0.9rem;
-            border: linear-gradient(90deg, #000000, #746e74);
-            border-style: solid;
-            border-radius: 60px;
-            margin: 0.9rem;
-        }
-
-        .image-column image{
-            height: auto;
-            max-width:100%;
-            margin: 0 auto 20px auto;
-            display: block;
-        }
-
         body {
-            background: linear-gradient(90deg, #c8c4c4, #120e12);
-            background-size: cover;
-            background-repeat: inherit;
-            font-size: 1rem;
-            
+            background: linear-gradient(90deg, #1d1d1d, #a7a1a7);
         }
-
-        h1 {
-            background: linear-gradient(100deg, #e8e2e2, #663bab);
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
+        .jumbotron, .contact-section {
+            background-color: #d2cece;
+            border-radius: 20px;
+            padding: 20px;
+            margin-bottom: 20px;
         }
-        mark{
-            background-color: #c0b7c0;
-            color: black;
-            font-family: 'Times New Roman', Times, serif;
-            border-radius: 60px;
+        .story-image {
+            display: block;
+            margin: 0 auto 20px auto;
+            max-width: 100%;
+            height: auto;
+        }
+        .story-text {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #ffffff;
+            font-size: 1.2em;
+            font-family:Georgia;
+        }
+        .end-text {
+            color: #ffffff;
+            font-size: 5em;
+            text-align: center;
+            margin-bottom: 50px;
         }
     </style>
 </head>
 <body>
-<div class="container-fluid">
-    <div class="row justify-content-center">
-        <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-6 text-center">
-            <div class="image-column">
-                <h1>The Lone Warrior</h1>
-                <img src="https://i.pinimg.com/736x/f8/1b/04/f81b04f8195f19d194459356a116483b.jpg" alt="Image 1">
-            </div>
+
+<div class="container">
+    <div class="jumbotron text-center">
+        <h1 class="display-3">The Lone Warrior</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <img src="https://i.pinimg.com/736x/f8/1b/04/f81b04f8195f19d194459356a116483b.jpg" alt="Picture 5" class="story-image img-fluid">
+            <p class="story-text">In a realm plagued by darkness and tyranny, there existed a lone warrior
+                whose name was whispered in hushed tones by those who dared to dream of freedom.</p> 
+            <img src="https://i.pinimg.com/564x/89/7e/7b/897e7b890a6004fd5133d1b814e93e10.jpg" alt="Picture 1" class="story-image img-fluid">
+            <p class="story-text">He was known simply as <b> "The Lone Warrior." </b> His true name had long been forgotten, 
+                buried beneath the weight of his solitary quest.</p> 
+            <img src="https://i.pinimg.com/564x/ae/1c/6a/ae1c6ad8c38a1697cd04b1070c23cb23.jpg" alt="Picture 2" class="story-image img-fluid">
+            <p class="story-text">The Lone Warrior roamed the land, his cloak billowing behind him like a shadow in the wind.</p>
+            <p class="story-text">is eyes, sharp as the blade he wielded, carried the burden of countless battles fought in</p>
+            <p class="story-text">the name of justice. He was a figure of legend, a beacon of hope in a world shrouded in despair.</p>
+            <img src="https://i.pinimg.com/736x/11/7d/29/117d299d769d7313f1c91d2bc2c7fab7.jpg" alt="Picture 3" class="story-image img-fluid">
+            <p class="story-text">"Many tales were told of his exploits: how he had single-handedly defeated hordes of monsters,</p>
+            <p class="story-text">liberated villages from the grip of ruthless warlords, and stood against the forces of darkness when all seemed lost.</p>
+            <p class="story-text">But despite his fame, The Lone Warrior remained a mystery, his past veiled in secrecy.</p>
+            <img src="https://i.pinimg.com/564x/f8/2f/93/f82f93977beb5b3e8c8b3eaa9cced0eb.jpg" alt="Picture 4" class="story-image img-fluid">
+            <p class="story-text">Driven by a sense of duty that burned like a flame within his heart, The Lone Warrior continued his quest,seeking out those who cried out for his aid.</p>
+            <p class="story-text">Along the way, he encountered friends and allies who shared his vision of a better world.</p>
+            <p class="story-text"> Together, they faced unimaginable dangers, their bond forged in the heat of battle.</p>
+            <img src="https://i.pinimg.com/564x/7a/57/4f/7a574f874917e6c861d774ffa1778d45.jpg" alt="Picture 5" class="story-image img-fluid">
+            <p class="story-text">But with each victory came new challenges, and The Lone Warrior knew that his journey would never truly end until peace reigned once more.</p>
+            <p class="story-text"> For every enemy he vanquished, another rose to take its place, their dark ambitions threatening to engulf the land in eternal darkness.</p>
+            <img src="https://i.pinimg.com/564x/55/4a/46/554a4642a31f470c478ebd8143e4e178.jpg" alt="Picture 6" class="story-image img-fluid">
+            <p class="story-text">Yet, despite the odds stacked against him, The Lone Warrior refused to falter.</p>
+            <p class="story-text">His resolve was unbreakable, his spirit indomitable.</p>
+            <p class="story-text">For he knew that as long as even a single ember of hope remained, the fires of rebellion would never die.</p>
+            <img src="https://i.pinimg.com/736x/b1/cf/d7/b1cfd78938f2d8483069a5e706cbc3ca.jpg" alt="Picture 7" class="story-image img-fluid">
+            <p class="story-text">And so, The Lone Warrior continued to fight, his name becoming a rallying cry for those who dared to defy the darkness.</p>
+            <p class="story-text">Though he walked a path fraught with peril, he did so with courage and conviction,</p>
+            <p class="story-text"> knowing that his legacy would endure long after he had passed into legend.</p>
+            <img src="https://i.pinimg.com/564x/f0/f3/87/f0f387567bdf96000545da767f6ca1df.jpg" alt="Picture 8" class="story-image img-fluid">
+            <p class="story-text">For in the annals of history, there would always be tales of The Lone Warrior, a lone figure standing against the tide of darkness, a symbol of hope in a world consumed by chaos.</p>
+            <p class="story-text">And though his journey may have ended, his spirit would live on, a guiding light for all who dared to dream of a better tomorrow.</p>
+            <h1 class="end-text">THE END</h1>
         </div>
     </div>
-    <div class="container-fluid">
- <div class="row justify-content-center">
-     <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-6 text-center">
-         <div class="image-column">
-                <p> <mark>In a realm plagued by darkness and tyranny, there existed a lone warrior
-                     whose name was whispered in hushed tones by those who dared to dream of freedom.</mark></p>
-                 <img src="https://i.pinimg.com/564x/89/7e/7b/897e7b890a6004fd5133d1b814e93e10.jpg" alt="Image 2">
-                 <p> <mark>He was known simply as <b> "The Lone Warrior." </b> His true name had long been forgotten, 
-                buried beneath the weight of his solitary quest.</mark></p>
+
+    <div class="row mt-5 contact-section">
+        <div class="col text-center">
+            <h2>Contact Us</h2>
+            <p>If you want more stories, feel free to reach out!</p>
+            <a href="https://www.facebook.com/rain.cale.9/" target="_blank"><i class="fab fa-facebook fa-2x me-3"></i></a>
+            <a href="https://www.instagram.com/itto_hayami/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
         </div>
     </div>
-</div>
-<div class="container-fluid">
-    <div class="row justify-content-center">
-                <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-6 text-center">
-                    <div class="image-column">
-                        <p> <mark>The Lone Warrior roamed the land, his cloak billowing behind him like a shadow in the wind.</mark> </p>
-                        <img src="https://i.pinimg.com/736x/01/9c/57/019c579e1c8301113c13e515618aaa69.jpg" alt="Image 3">
-                        <img src="https://i.pinimg.com/564x/ae/1c/6a/ae1c6ad8c38a1697cd04b1070c23cb23.jpg" alt="Image 4">
-                        <p> <mark>His eyes, sharp as the blade he wielded, carried the burden of countless battles fought in 
-                            the name of justice. He was a figure of legend, a beacon of hope in a world shrouded in despair.</mark></p>
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row justify-content-center">
-                    <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-6 text-center">
-                        <div class="image-column">
-                            <p> <mark>Many tales were told of his exploits: how he had single-handedly defeated hordes of monsters, <br>liberated villages from the grip of ruthless warlords,
-                                 and stood against the forces of darkness when all seemed lost. <br></mark> </p>
-                            <img src="https://i.pinimg.com/736x/11/7d/29/117d299d769d7313f1c91d2bc2c7fab7.jpg" alt="Image 5">
-                            <p> <mark> But despite his fame, The Lone Warrior remained a mystery, his past veiled in secrecy. </mark> </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="row justify-content-center">
-                        <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-6 text-center">
-                            <div class="image-column">
-                                <p> <mark>Driven by a sense of duty that burned like a flame within his heart, The Lone Warrior continued his quest, seeking out those who cried out for his aid.</mark> </p>
-                                <img src="https://e1.pxfuel.com/desktop-wallpaper/241/376/desktop-wallpaper-300-rise-of-an-empire.jpg" alt="Image 6">
-                                <img src="spartan.jpg" alt="Image 7">
-                                <p> <mark>Along the way, he encountered friends and allies who shared his vision of a better world. Together, they faced unimaginable dangers, their bond forged in the heat of battle.</mark> </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="container-fluid">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-6 text-center">
-                                <div class="image-column">
-                                    <p> <mark>But with each victory came new challenges, and The Lone Warrior knew that his journey would never truly end until peace reigned once more. </mark> </p>
-                                    <img src="https://i.pinimg.com/564x/0c/24/b1/0c24b18e046762cb3e4631f4e1640b9e.jpg" alt="Image 7">
-                                    <img src="https://i.pinimg.com/564x/c1/a5/b0/c1a5b0c5148d5660fe74982cbec6fe57.jpg" alt="Image 8">
-                                    <p> <mark> For every enemy he vanquished, another rose to take its place, their dark ambitions threatening to engulf the land in eternal darkness.</mark> </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="container-fluid">
-                            <div class="row justify-content-center">
-                                <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-6 text-center">
-                                    <div class="image-column">
-                                        <p> <mark>Yet, despite the odds stacked against him, The Lone Warrior refused to falter.</mark> </p>
-                                            <img src="https://i.pinimg.com/736x/7f/ce/de/7fcede75e29d73e2e8a9c7069864e051.jpg" alt="Image 9">
-                                            <p> <mark> His resolve was unbreakable, his spirit indomitable. For he knew that as long as even a single ember of hope remained, the fires of rebellion would never die. </mark> </p>
-                                        </div>
-                                </div>
-                            </div>
-                            <div class="container-fluid">
-                                <div class="row justify-content-center">
-                                    <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-6 text-center">
-                                        <div class="image-column">
-                                            <p> <mark>And so, The Lone Warrior continued to fight, his name becoming a rallying cry for those who dared to defy the darkness.</mark> </p>
-                                            <img src="https://i.pinimg.com/564x/a8/a3/64/a8a364ed7d4059f189827422a062d632.jpg" alt="Image 10">
-                                            <img src="https://i.pinimg.com/564x/a2/7c/d6/a27cd6d321462ddc3239c40ef0887f5d.jpg" alt="Image 11">
-                                            <p> <mark>Though he walked a path fraught with peril, he did so with courage and conviction, knowing that his legacy would endure long after he had passed into legend.</mark> </p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="container-fluid">
-                                    <div class="row justify-content-center">
-                                        <div class="col-12 col-sm-10 col-md-8 col-lg-6 col-xl-6 text-center">
-                                            <div class="image-column">
-                                                <p> <mark>For in the annals of history, there would always be tales of The Lone Warrior, a lone figure standing against the tide of darkness, a symbol of hope in a world consumed by chaos. </mark> </p>
-                                                <img src="https://i.pinimg.com/564x/f0/f3/87/f0f387567bdf96000545da767f6ca1df.jpg" alt="Image 12">
-                                                <img src="https://i.pinimg.com/564x/81/80/82/818082a17100bc0aaf3510d4c6411c1e.jpg" alt="Image 13">
-                                                <p> <mark>And though his journey may have ended, his spirit would live on, a guiding light for all who dared to dream of a better tomorrow.</mark> </p>
-                                            </div>
-                                        </div>
-                                    </div>
 </div>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-
 </body>
 </html>
